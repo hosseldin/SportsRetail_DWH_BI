@@ -34,7 +34,9 @@ This project involves:
 - Data Engineering  
 - ETL Pipeline Developer  
 - Data Modeling  
-- Data Analytics  
+- Data Analytics
+
+- Working with SoC Mindset!
 
 ---
 
