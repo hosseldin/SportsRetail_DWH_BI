@@ -109,4 +109,6 @@ data-warehouse-project/
 └── requirements.txt                    # Dependencies and requirements for the project
 ```
 ---
+Bronze Layer
+<img width="1871" height="286" alt="image" src="https://github.com/user-attachments/assets/79bc655c-0f14-4457-a3d1-e6055ae01d07" />
 
