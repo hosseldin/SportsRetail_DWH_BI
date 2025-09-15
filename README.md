@@ -4,6 +4,7 @@ Welcome to the **SportsRetail DWH & BI** repository! 🚀
 This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights. Designed as a portfolio project, it highlights industry best practices in data engineering and analytics.
 
 ---
+
 ## 🏗️ Data Architecture
 
 The data architecture for this project follows Medallion Architecture **Bronze**, **Silver**, and **Gold** layers:
@@ -17,9 +18,8 @@ The data architecture for this project follows Medallion Architecture **Bronze**
 <img width="1466" height="342" alt="image" src="https://github.com/user-attachments/assets/b1af843a-d468-4f57-bc18-b05f7f3cd4f3" />
 <img width="1461" height="457" alt="image" src="https://github.com/user-attachments/assets/861ca4eb-994d-492b-a4b8-8122cfa46a87" />
 
-
-
 ---
+
 ## 📖 Project Overview
 
 This project involves:
@@ -30,11 +30,12 @@ This project involves:
 4. **Analytics & Reporting**: Creating SQL-based reports and dashboards for actionable insights.
 
 🎯 This repository is an excellent resource for professionals and students looking to showcase expertise in:
+
 - SQL Development
 - Data Architect
-- Data Engineering  
-- ETL Pipeline Developer  
-- Data Modeling  
+- Data Engineering
+- ETL Pipeline Developer
+- Data Modeling
 - Data Analytics
 
 - Working with SoC Mindset!
@@ -44,6 +45,7 @@ This project involves:
 ## 🛠️ Important Links & Tools:
 
 Everything is for Free!
+
 - **[Datasets](datasets/):** Access to the project dataset (csv files).
 - **[SQL Server Express](https://www.microsoft.com/en-us/sql-server/sql-server-downloads):** Lightweight server for hosting your SQL database.
 - **[SQL Server Management Studio (SSMS)](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16):** GUI for managing and interacting with databases.
@@ -59,9 +61,11 @@ Everything is for Free!
 ### Building the Data Warehouse (Data Engineering)
 
 #### Objective
+
 Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making.
 
 #### Specifications
+
 - **Data Sources**: Import data from two source systems (ERP and CRM) provided as CSV files.
 - **Data Quality**: Cleanse and resolve data quality issues prior to analysis.
 - **Integration**: Combine both sources into a single, user-friendly data model designed for analytical queries.
@@ -73,16 +77,19 @@ Develop a modern data warehouse using SQL Server to consolidate sales data, enab
 ### BI: Analytics & Reporting (Data Analysis)
 
 #### Objective
+
 Develop SQL-based analytics to deliver detailed insights into:
+
 - **Customer Behavior**
 - **Product Performance**
 - **Sales Trends**
 
-These insights empower stakeholders with key business metrics, enabling strategic decision-making.  
+These insights empower stakeholders with key business metrics, enabling strategic decision-making.
 
 For more details, refer to [docs/requirements.md](docs/requirements.md).
 
 ## 📂 Repository Structure
+
 ```
 data-warehouse-project/
 │
@@ -108,7 +115,18 @@ data-warehouse-project/
 ├── .gitignore                          # Files and directories to be ignored by Git
 └── requirements.txt                    # Dependencies and requirements for the project
 ```
+
 ---
+
 Bronze Layer
 <img width="1871" height="286" alt="image" src="https://github.com/user-attachments/assets/79bc655c-0f14-4457-a3d1-e6055ae01d07" />
 
+Naming Convention
+Bronze Layer:
+
+<source>_<entity> ex: crm_customer_info
+Silver Layer:
+<source>_<entity> ex: crm*customer_info
+Gold Layer:
+<category>*<entity> ex: dim_customer
+dim or fact
