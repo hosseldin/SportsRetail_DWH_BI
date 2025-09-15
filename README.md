@@ -130,3 +130,7 @@ Silver Layer:
 Gold Layer:
 <category>*<entity> ex: dim_customer
 dim or fact
+
+
+Data Flow
+![alt text](image.png)
