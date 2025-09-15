@@ -28,6 +28,7 @@ GO
 CREATE DATABASE SR_DWH_DB;
 GO
 
+-- Switches to this Database
 USE SR_DWH_DB;
 GO
 

@@ -11,6 +11,10 @@ Script Purpose:
 	Will Create tables for both CRM and ERP
 ==============================================================*/
 
+-- Switches to this Database
+USE SR_DWH_DB;
+GO
+
 -- So why this naming convention? because better readability and structurability
 DROP TABLE IF EXISTS bronze.crm_cust_info;
 GO
