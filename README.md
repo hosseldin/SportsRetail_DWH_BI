@@ -7,13 +7,16 @@ This project demonstrates a comprehensive data warehousing and analytics solutio
 ## 🏗️ Data Architecture
 
 The data architecture for this project follows Medallion Architecture **Bronze**, **Silver**, and **Gold** layers:
-![Data Architecture](https://raw.githubusercontent.com/DataWithBaraa/sql-data-warehouse-project/main/docs/data_architecture.png)
+
+<img width="1572" height="928" alt="image" src="https://github.com/user-attachments/assets/a016cadf-165a-45e2-9e02-25b7ca2e07d4" />
 
 1. **Bronze Layer**: Stores raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.
 2. **Silver Layer**: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
 3. **Gold Layer**: Houses business-ready data modeled into a star schema required for reporting and analytics.
 
 <img width="1466" height="342" alt="image" src="https://github.com/user-attachments/assets/b1af843a-d468-4f57-bc18-b05f7f3cd4f3" />
+<img width="1461" height="457" alt="image" src="https://github.com/user-attachments/assets/861ca4eb-994d-492b-a4b8-8122cfa46a87" />
+
 
 
 ---
@@ -32,7 +35,9 @@ This project involves:
 - Data Engineering  
 - ETL Pipeline Developer  
 - Data Modeling  
-- Data Analytics  
+- Data Analytics
+
+- Working with SoC Mindset!
 
 ---
 
