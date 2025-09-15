@@ -17,7 +17,11 @@
     EXEC bronze.load_bronze;
 ==============================================================*/
 
- EXEC bronze.load_bronze
+-- Switches to this Database
+USE SR_DWH_DB;
+GO
+
+EXEC bronze.load_bronze
 
 -- Create the procedure (or alter if it already exists)
 CREATE OR ALTER PROCEDURE bronze.load_bronze
